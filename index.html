@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="conteudo" id="card">
+      <div class="conteudo-principal">
+        <h1 class="conteudo-titulo">Stay updated!</h1>
+        <p class="conteudo-texto">Join 60,000+ product managers receinving monthly updates on:</p>
+        <ul class="conteudo-lista">
+          <li class="conteudo-item"><img src="assets/images/icon-list.svg" alt="correct icon">
+            product discovery and building what matters
+          </li>
+          <li class="conteudo-item"><img src="assets/images/icon-list.svg" alt="correct icon">
+            Measuring to ensure updates are a success
+          </li>
+          <li class="conteudo-item"><img src="assets/images/icon-list.svg" alt="correct icon">
+            And much more!
+          </li>
+        </ul>
+        <form class="email">
+          <label class="email-titulo" for="email">Email address</label>
+          <input class="btn-input" type="email" placeholder="email@company.com" id="email">
+          <button type="submit" class="conteudo-btn">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      <div>
+        <img class="imagem-mobile" src="assets/images/illustration-sign-up-mobile.svg" alt="">
+        <img class="imagem-desktop" src="assets/images/illustration-sign-up-desktop.svg" alt="demonstration image of product">
+      </div>
+    </section>
+
+    <section class="conteudo-2 hide" id="card-2">
+      <img class="conteudo-imagem" src="assets/images/icon-success.svg" alt="correct icon">
+      <h1 class="conteudo-titulo">Thanks for subscribing!</h1>
+      <div class="texto-email"></div>
+      <button id="dismiss" class="conteudo-btn">Dismiss message</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/whitwander">Victor Mikhael</a>.
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
